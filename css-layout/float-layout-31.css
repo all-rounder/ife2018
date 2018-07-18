@@ -1,0 +1,36 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    overflow: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ff0000;
+}
+
+.col {
+    padding: 5px;
+    border: 1px solid #888;
+}
+
+.first-col {
+    float: left;
+    width: 250px;
+}
+
+.second-col {
+    float: left;
+    margin-left: 10px;
+    width: -moz-calc(100% - 520px);
+    width: -webkit-calc(100% - 520px);
+    width: calc(100% - 520px);
+}
+
+.third-col {
+    float: right;
+    margin-left: 10px;
+    width: 250px;
+}
