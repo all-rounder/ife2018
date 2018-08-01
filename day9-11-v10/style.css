@@ -1,0 +1,542 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p input {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 970px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hello-world {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    background-image: url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    color: #eee;
+}
+
+
+.hello-world .caption {
+    margin: 0;
+    font-size: 70px;
+}
+
+.hello-world .desc {
+    padding-top: 60px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+    width: 850px;
+    font-size: 24px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.702);
+}
+
+.create-account {
+    padding: 40px 80px;
+    border: 1px solid #999;
+
+}
+
+.create-account .caption {
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+
+.sign-up {
+    padding-top: 30px;
+}
+
+.sign-up .input-box {
+    width: 290px;
+    height: 50px;
+    padding: 0 0 0 22px;
+    margin: 0 30px 0 0;
+    border: 1px solid #aaa;
+    background-color: transparent;
+    font-size: 16px;
+}
+
+.sign-up .active {
+    color: #fff;
+}
+
+.sign-up .submit-button {
+    width: 125px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: #fff;
+
+}
+
+.sec-features {
+    padding-top: 70px;
+    padding-bottom: 110px;
+    text-align: center;
+}
+
+.sec-features p:first-child {
+    font-size: 16px;
+}
+
+.sec-features p.desc {
+    width: 670px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    font-size: 46px;
+
+}
+
+.features {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.features .col-1, .feautres .col-2{
+    float: left;
+    width: 475px;
+}
+
+.features .col-1 {
+    margin-right: 150px;
+}
+
+.features .feature {
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.feature-img {
+    float: left;
+    width: 50px;
+    height: 110px;
+    margin-right: 25px;
+}
+
+
+
+.feature p:nth-child(2) {
+    padding-bottom: 12px;
+    font-size: 26px;
+    text-align: left;
+}
+
+.feature p:nth-child(3) {
+    font-size: 20px;
+    color: #aaa;
+    text-align: left;
+}
+
+
+.try-out-1 {
+    height: 800px;
+    background-image: url("images/bg2.jpg");
+    background-repeat: no-repeat;
+}
+
+.try-out-1-left {
+    /*width: 510px;
+    height: 435px;*/
+    padding-top: 170px;
+    padding-left: 300px;
+}
+
+.try-out-1-left .caption {
+    width: 375px;
+    font-size: 46px;
+    color: #fff;
+}
+
+.try-out-1-left .desc {
+    width: 375px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.try-out-1-left .left-but,  .try-out-1-left .right-but{
+    width: 240px;
+    height: 60px;
+    font-size: 14px;
+}
+
+.try-out-1-left .left-but {
+    margin-right: 20px;
+    border: 1px solid #fff;
+    background-color: #fff;
+
+}
+
+.try-out-1-left .right-but {
+    background-color: transparent;
+    border: 1px solid #999;
+    color: #fff;
+}
+
+
+
+.try-out-1-right {
+    float: right;
+}
+
+.try-out-2 {
+    width: 1000px;
+    margin: 90px 300px 0 300px;
+}
+
+.try-out-2 .caption {
+    margin-bottom: 70px;
+    font-size: 48px;
+    text-align: center;
+}
+
+.try-out-2 .three-column {
+    width: 286px;
+    margin-bottom: 70px;
+    float: left;
+    text-align: center;
+}
+
+.try-out-2 .three-column:nth-child(3) {
+    margin-left: 70px;
+}
+
+.try-out-2 .three-column:nth-child(4) {
+    margin-left: 70px;
+}
+
+.try-out-2 .three-column img {
+    margin-bottom: 25px;
+
+
+}
+
+.try-out-2 .three-column p {
+    font-size: 20px;
+    color: #777;
+}
+
+
+.explanation {
+    padding: 115px 300px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.explanation .row-1, .explanation .row-2 {
+    overflow: auto;
+}
+
+.explanation .row-2 {
+    padding-top: 80px;
+}
+
+.explanation .row-1 img {
+    float: left;
+    padding-right: 100px;
+}
+
+.explanation .row-2 img {
+    float: right;
+    padding-left: 80px;
+}
+
+.explanation .caption {
+    padding-top: 75px;
+    padding-bottom: 30px;
+    font-size: 28px;
+}
+
+.explanation .desc {
+    font-size: 20px;
+    color: #777;
+}
+
+.our-crew {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+    overflow: auto;
+    text-align: center;
+}
+
+.our-crew .caption {
+    font-size: 48px;
+}
+
+.our-crew .desc {
+    width: 700px;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #777;
+}
+
+.crews {
+    position: relative;
+    width: 970px;
+    margin: 0 auto;
+ 
+}
+
+.crew {
+    float: left;
+}
+
+.crew:nth-child(2), .crew:nth-child(4) {
+    padding-left: 30px;
+
+}
+
+.crew:nth-child(1), .crew:nth-child( 2) {
+    padding-bottom: 30px;
+}
+
+.crew .profile {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 470px;
+    height: 340px;
+    padding-top: 90px;
+    padding-bottom: 110px;
+    background-image: url("images/background-mask.png");
+    opacity: 0.85;
+    display: none;
+}
+
+.crew:hover .profile {
+    display: block;
+}
+
+.crew .profile .name {
+    font-size: 24px;
+
+}
+
+.crew .profile .name a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.crew .profile .job {
+    padding-top: 12px;
+    padding-bottom: 35px;
+    color: #999;
+}
+
+.crew .profile ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+}
+
+.crew .profile ul li {
+
+    display: inline-block;
+}
+
+.crew .profile ul li:nth-child(2),
+.crew .profile ul li:nth-child(3) {
+    padding-left: 30px;
+}
+
+.contacts {
+    width: 970px;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    overflow: auto;
+}
+
+.contacts .col-1 {
+    width: 470px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+}
+
+.contacts .col-1 .caption {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+}
+
+.contacts .col-1 form {
+    margin: 0 auto;
+}
+
+.contacts .col-1 input,
+.contacts .col-1 textarea {
+    width: 370px;
+    height: 50px;
+    padding: 0 0 0 22px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #999;
+    vertical-align: top;
+}
+
+.contacts .col-1 textarea {
+    padding-top: 20px;
+    height: 145px;
+}
+
+.contacts .col-1 input[type=submit] {
+    border: none;
+    background-color: #000;
+    color: #fff;
+}
+
+.contacts .col-2 {
+    width: 500px;
+    padding-left: 120px;
+    float: right;
+}
+
+.contacts .col-2 .caption {
+    padding-top: 80px;
+    padding-bottom: 30px;
+    font-size: 48px;
+}
+
+.contacts .col-2 .desc{
+    padding-bottom: 65px;
+    font-size: 20px;
+    color: #777;
+}
+
+.contacts .col-2 ul {
+    padding: 0;
+}
+
+.contacts .col-2 ul li {
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contacts .col-2 ul li:nth-child(2),
+.contacts .col-2 ul li:nth-child(3) {
+    padding-top: 30px;
+}
+
+.contacts .col-2 ul li img {
+    float: left;
+    padding-right: 15px;
+}
+
+.footer {
+    padding-top: 80px;
+    padding-bottom: 120px;
+    overflow: auto;
+    background-color: #000;
+}
+
+.footer-menus {
+    padding-left: 210px;
+    float: left;
+    color: #fff;
+}
+
+.footer-menus a, .socials a {
+    color: #777;
+    text-decoration: none;
+}
+
+.footer-menus ul {
+    margin: 0;
+}
+
+.footer-menus ul li.menu {
+    width: 150px;
+    margin-right: 150px;
+    display: inline-block;
+    
+}
+
+.menu ul {
+    padding: 0;
+}
+
+.menu ul li {
+    padding-top: 20px;
+    list-style: none;
+    font-size: 18px;
+    
+}
+
+.socials {
+    width: 270px;
+    float: left;
+    color: #fff;
+}
+
+.socials p {
+    padding-top: 25px;
+    padding-bottom: 40px;
+    font-size: 20px;
+    color: #777;
+}
+
+.socials ul.inline {
+    padding: 0;
+    margin: 0;
+}
+
+.socials ul.inline li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+
+.clear-fix {
+    clear: both;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.grey-text {
+    color: #aaa;
+}
+
+
+

@@ -63,6 +63,7 @@ nav ul li, .banner ul li {
     position: absolute;
     right: 10px;
     bottom: 10px;
+
 }
 
 .banner ul li {
@@ -92,13 +93,14 @@ nav ul li, .banner ul li {
     z-index: 1;
     border: 1px sold #ccc;
     font-size: 22px;
- 
+
 }
 
 .main-nav ul {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+
 }
 
 .main-nav ul li {
